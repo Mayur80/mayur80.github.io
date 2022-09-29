@@ -1,0 +1,92 @@
+.contactM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 70%;
+    background-color: bisque;
+    height: 70vh;
+    padding-top: 1rem;
+
+    & .educationH{
+            
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 100;
+        padding-top: 1.5rem;
+       // margin-bottom: 0.7rem;
+        position: relative;
+        
+
+        &::after{
+            content: '';
+            width: 6rem;
+            height: 0.1rem;
+            background-color: white;
+            position: absolute;
+            bottom: 0;
+            
+        }
+    }
+    
+    & .form{
+        font-size: 1.5rem;
+        display:flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: azure;
+        row-gap: 1rem;
+        
+        & .formM{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            row-gap: .6rem;
+            width: 100%;
+            & .formItem{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                flex-direction: column;
+                position: relative;
+                height: 4rem;
+                
+                
+                }
+                & #fname{
+                    height: 3rem;
+                    width: 50%;
+                    
+                }
+
+                & label{
+                    position: absolute;
+                    
+                    left: 25%;
+                    display: inline-block;
+                    
+                    pointer-events: none;
+                    border: 1px solid transparent;
+                    transform-origin: 0 0;
+                    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+                    
+                    
+                    
+            }
+
+        }
+       
+
+       
+    }
+        
+
+}

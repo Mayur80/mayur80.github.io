@@ -1,0 +1,151 @@
+.mainEdu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: .9rem;
+
+   
+
+    & .educations{
+        background-color: rgba(18, 18, 196, 0.844);
+        height: 30vh;
+        width: 80%;
+       overflow: auto;
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column;
+        border-radius: 0.6rem;
+        padding: .7rem;
+        
+
+
+        & .educationH{
+            
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 100;
+            padding-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+
+            &::after{
+                content: '';
+                width: 4rem;
+                height: 0.1rem;
+                background-color: white;
+                position: absolute;
+                bottom: 0;
+                
+            }
+            
+            
+        }
+
+
+        & .educationsItems{
+            font-family: 'Open Sans', sans-serif;
+           // padding: .3rem;
+            font-size: 0.9rem;
+            color: whitesmoke;
+            width: 100%;
+            border-bottom: 0.1rem solid white;
+            border-left: 0.1rem solid white;
+            border-right: 0.1rem solid white;
+            border-radius: .3rem;
+            
+
+            & .items1{
+                display: flex;
+                flex-wrap: wrap;
+
+              
+
+                & .itemsH{
+                    flex: 80%;
+                }
+                & .itemsD{
+                    flex: 20%;
+                }
+               
+            }
+        }
+
+    }
+    & .skils{
+        background-color: rgba(18, 18, 196, 0.844);
+        height: 30vh;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 2.9rem;
+        border-radius: 0.6rem;
+        
+
+        & .educationH{
+           display: flex;
+           justify-content: center;
+           
+            font-family: 'Open Sans', sans-serif;
+            
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 100;
+            position: relative;
+
+            &::after{
+                content: '';
+                width: 4rem;
+                height: 0.1rem;
+                background-color: white;
+                position: absolute;
+                bottom: 0;
+            }
+            
+         }
+
+        & .skillItems{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.9rem;
+            color: whitesmoke;
+            
+
+            & ul{
+                background-color: aliceblue;
+                list-style-type: none;
+                height: 4.7rem;
+                border-radius: 1rem;
+                display: flex;
+                align-items: center;
+                
+                & li{
+                    font-size: 1.2rem;
+                    padding: 0.5rem;
+                    text-decoration: none;
+                    color: rgba(16, 131, 193, 0.834);
+                   
+                        &:hover{
+                    
+                        background-color: rgba(131, 121, 121, 0.632);
+                        border-radius: 0.5rem;
+                        }
+   
+                    }
+            }
+        }
+    
+    }
+ }
+        
+                    
+                    
+                   

@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  font-size: 62.5%; }
+
+.name {
+  color: #fff;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  line-height: 3.9rem;
+  background-color: #1181cbdd; }
+
+.title {
+  color: #a0cfee;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-bottom: 1.5rem; }
+
+.submit {
+  display: inline-block;
+  background: transparent;
+  padding: 1.5rem 2.5rem;
+  border: 0.2rem solid #fff;
+  border-radius: 3rem;
+  transition: .5s ease all;
+  color: #fff; }
+  .submit:hover {
+    color: #3445db;
+    background: #fff;
+    text-decoration: none; }
+
+#submit {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.nav {
+  height: 4.7rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 2; }
+  .nav .ul {
+    background-color: aliceblue;
+    list-style-type: none;
+    height: 100%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center; }
+    .nav .ul .li {
+      font-size: 1.2rem;
+      padding: 0.5rem; }
+      .nav .ul .li a {
+        text-decoration: none;
+        color: rgba(16, 131, 193, 0.834); }
+      .nav .ul .li:hover {
+        background-color: rgba(131, 121, 121, 0.632);
+        border-radius: 0.5rem; }
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 50%; } }
+
+.about {
+  flex-direction: row !important;
+  gap: 1rem;
+  background: linear-gradient(330deg, rgba(214, 164, 16, 0.871) 18%, rgba(189, 216, 14, 0.349) 100%) !important;
+  border-bottom: 0.1rem solid #f5f5f5;
+  width: 100%; }
+
+.aboutMe {
+  display: flex;
+  color: whitesmoke;
+  font-size: 2.9rem;
+  line-height: 2.9rem;
+  justify-content: center;
+  flex: 2;
+  position: relative; }
+  .aboutMe::after {
+    content: '';
+    width: 6rem;
+    height: 0.1rem;
+    background-color: white;
+    position: absolute;
+    bottom: 0; }
+
+.aboutDetails {
+  padding: 1rem;
+  display: flex;
+  flex: 4; }
+  .aboutDetails p {
+    padding: .5rem;
+    background: #F8F8F8;
+    border: solid #BDBDBD 0.1rem;
+    box-shadow: -0.6rem 0.14rem 1.3rem rgba(0, 0, 0, 0.4);
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.6rem;
+    color: #186dd6;
+    border-radius: 1rem;
+    width: 100%; }
+
+#ExperienceM h2 {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 4rem;
+  top: 5rem; }
+
+#ExperienceM .experienceC {
+  margin-top: 6rem;
+  background-color: rgba(160, 150, 79, 0.4);
+  height: 60vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  overflow: auto;
+  flex-wrap: wrap;
+  border-radius: 1rem; }
+  #ExperienceM .experienceC .experienceCC {
+    position: relative;
+    width: 100%;
+    display: flex;
+    border: 0.1rem solid white;
+    border-radius: 1rem; }
+    #ExperienceM .experienceC .experienceCC::after {
+      content: '';
+      top: 1.2rem;
+      position: absolute;
+      left: 14.635rem;
+      height: 90%;
+      width: 0.2rem;
+      background-color: white;
+      z-index: 0;
+      opacity: 50%; }
+    #ExperienceM .experienceC .experienceCC .timeLine {
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 100;
+      min-width: 13rem; }
+    #ExperienceM .experienceC .experienceCC .timeIcon {
+      color: white;
+      height: 1rem;
+      width: 1rem;
+      position: relative;
+      z-index: 1;
+      margin-left: 1rem; }
+    #ExperienceM .experienceC .experienceCC .details {
+      padding: 0 1rem; }
+      #ExperienceM .experienceC .experienceCC .details .companyName {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        color: white; }
+      #ExperienceM .experienceC .experienceCC .details .jobTitle {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.1rem;
+        color: white;
+        font-weight: 500; }
+      #ExperienceM .experienceC .experienceCC .details .jobDetails {
+        color: aliceblue;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8rem; }
+
+.projectM {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 4rem;
+  width: 70%; }
+  .projectM .educationH {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    color: white;
+    font-size: 4rem;
+    position: relative;
+    justify-content: center; }
+    .projectM .educationH::after {
+      content: '';
+      width: 7rem;
+      height: 0.1rem;
+      background-color: white;
+      position: absolute;
+      bottom: 0; }
+  .projectM .project {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 0.5rem auto;
+    background: #fff;
+    border-radius: 0.4rem;
+    height: 30vh;
+    display: flex;
+    flex-direction: row; }
+    .projectM .project .project-image {
+      background-color: aqua;
+      height: 100%;
+      min-width: 30%;
+      border: .2rem solid black;
+      border-radius: 0.4rem; }
+      .projectM .project .project-image img {
+        height: 100%;
+        width: 100%; }
+    .projectM .project .project-info {
+      display: flex;
+      background-color: rgba(127, 255, 212, 0);
+      min-width: 70%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .projectM .project .project-info h3 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #374054;
+        margin: 0 0 1.5rem 0; }
+      .projectM .project .project-info p {
+        color: #74808a;
+        margin: 0 0 1.5rem 0;
+        font-size: 0.9rem; }
+      .projectM .project .project-info a {
+        font-size: 1rem;
+        color: #337ab7;
+        text-decoration: none;
+        background-color: transparent; }
+        .projectM .project .project-info a:hover {
+          color: #23527c;
+          text-decoration: underline; }
+
+.contactM {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 70%;
+  background-color: bisque;
+  height: 70vh;
+  padding-top: 1rem; }
+  .contactM .educationH {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+    padding-top: 1.5rem;
+    position: relative; }
+    .contactM .educationH::after {
+      content: '';
+      width: 6rem;
+      height: 0.1rem;
+      background-color: white;
+      position: absolute;
+      bottom: 0; }
+  .contactM .form {
+    font-size: 1.5rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    row-gap: 1rem; }
+    .contactM .form .formM {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      row-gap: .6rem;
+      width: 100%; }
+      .contactM .form .formM .formItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        height: 4rem; }
+      .contactM .form .formM #fname {
+        height: 3rem;
+        width: 50%; }
+      .contactM .form .formM label {
+        position: absolute;
+        left: 25%;
+        display: inline-block;
+        pointer-events: none;
+        border: 1px solid transparent;
+        transform-origin: 0 0;
+        transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out; }
+
+.mainEdu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: .9rem; }
+  .mainEdu .educations {
+    background-color: rgba(18, 18, 196, 0.844);
+    height: 30vh;
+    width: 80%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    padding: .7rem; }
+    .mainEdu .educations .educationH {
+      font-family: 'Open Sans', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: 100;
+      padding-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      position: relative; }
+      .mainEdu .educations .educationH::after {
+        content: '';
+        width: 4rem;
+        height: 0.1rem;
+        background-color: white;
+        position: absolute;
+        bottom: 0; }
+    .mainEdu .educations .educationsItems {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.9rem;
+      color: whitesmoke;
+      width: 100%;
+      border-bottom: 0.1rem solid white;
+      border-left: 0.1rem solid white;
+      border-right: 0.1rem solid white;
+      border-radius: .3rem; }
+      .mainEdu .educations .educationsItems .items1 {
+        display: flex;
+        flex-wrap: wrap; }
+        .mainEdu .educations .educationsItems .items1 .itemsH {
+          flex: 80%; }
+        .mainEdu .educations .educationsItems .items1 .itemsD {
+          flex: 20%; }
+  .mainEdu .skils {
+    background-color: rgba(18, 18, 196, 0.844);
+    height: 30vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 2.9rem;
+    border-radius: 0.6rem; }
+    .mainEdu .skils .educationH {
+      display: flex;
+      justify-content: center;
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: 100;
+      position: relative; }
+      .mainEdu .skils .educationH::after {
+        content: '';
+        width: 4rem;
+        height: 0.1rem;
+        background-color: white;
+        position: absolute;
+        bottom: 0; }
+    .mainEdu .skils .skillItems {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.9rem;
+      color: whitesmoke; }
+      .mainEdu .skils .skillItems ul {
+        background-color: aliceblue;
+        list-style-type: none;
+        height: 4.7rem;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center; }
+        .mainEdu .skils .skillItems ul li {
+          font-size: 1.2rem;
+          padding: 0.5rem;
+          text-decoration: none;
+          color: rgba(16, 131, 193, 0.834); }
+          .mainEdu .skils .skillItems ul li:hover {
+            background-color: rgba(131, 121, 121, 0.632);
+            border-radius: 0.5rem; }
+
+.mainBG {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(330deg, rgba(40, 121, 182, 0.263) 18%, rgba(40, 103, 166, 0.559) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .mainBG::before {
+    content: '';
+    position: absolute;
+    opacity: 0.5;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background: #fff url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) center center/cover no-repeat; }
