@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(133, 199, 193);
+    font-family: cursive;
+}
+.score{
+    color: green;
+    text-align: right;
+}
+.form{
+    background-color: rgba(240, 248, 255, 0.562);
+    box-shadow: 0 4px 8px rgba(191, 201, 209, 0.562);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    color: green;
+}
+
+input::placeholder{
+    color: lightgray;
+    font-family: cursive;
+}
+.submit{
+    background-color: green;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(46, 48, 49, 0.701);
+}
+
+.submit:hover{
+    filter: brightness(0.9);
+}
